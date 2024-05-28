@@ -35,6 +35,7 @@ body {
   background-position: top;
   max-width: 1440px;
   margin: auto;
+
 }
 
 .header {
@@ -42,11 +43,14 @@ body {
   display: flex;
   flex-direction: column;
   gap: 140px;
+
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
 }
 
 .header-links {
@@ -54,6 +58,54 @@ nav {
   font-family: var(--font-family-alata);
   font-weight: var(--font-weight-alata);
   gap: 30px;
+}
+
+.open-menu {
+  display: none;
+  width: 25px;
+  height: 15px;
+}
+
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  border: 1px solid white;
+  transition-delay: 2ms;
+  padding: 5% ;
+
+
+}
+
+
+
+.mobile-menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.close-menu {
+  width: 25px;
+  height: auto;
+}
+
+.header-mobile-links {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: var(--font-family-josefin-sans);
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2rem;
+
 }
 
 .header-title {
@@ -236,6 +288,12 @@ nav {
     display: none;
   }
 
+  .open-menu {
+    display: block;
+    width: 25px;
+    height: 15px;
+  }
+
   .header-title {
     font-size: 2rem;
     padding: 30px 20px;
@@ -372,6 +430,12 @@ nav {
     display: none;
   }
 
+  .open-menu {
+    display: block;
+    width: 25px;
+    height: 15px;
+  }
+
   .header-title p {
     max-width: 100%;
     font-size: 2.75rem;
@@ -434,7 +498,7 @@ nav {
     text-align: center;
     max-width: 100%;
     padding: auto;
-   
+
   }
 
   .footer-links {
