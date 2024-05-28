@@ -237,7 +237,7 @@ nav {
   }
 
   .header-title {
-    font-size: 2.75rem;
+    font-size: 2rem;
     padding: 30px 20px;
     max-width: 100%;
     line-height: 2.5rem;
@@ -251,6 +251,7 @@ nav {
     gap: 20px;
     text-align: center;
   }
+
   .vr-section-text {
     padding: 0;
     margin: 0;
@@ -314,7 +315,6 @@ nav {
   .hero-section-header-title {
     font-size: 1.5rem;
     width: 90%;
-
     margin: auto;
   }
 
@@ -350,14 +350,32 @@ nav {
   }
 }
 
+/* Tablette */
 @media screen and (min-width: 376px) and (max-width: 900px) {
   body {
     padding: 0;
     margin: 0;
   }
+
   .container {
     max-width: 100%;
     padding: 20px;
+  }
+
+  .header-title {
+    max-width: min-content;
+    display: inline;
+  }
+
+
+  .header-links {
+    display: none;
+  }
+
+  .header-title p {
+    max-width: 100%;
+    font-size: 2.75rem;
+    display: inline;
   }
 
   .vr-section {
@@ -366,16 +384,61 @@ nav {
     flex-direction: column;
     position: static;
   }
+
   .vr-section-text {
     position: inherit;
     padding: 20px;
+
+
+  }
+
+  .vr-section-text-paragraph {
+    display: inline;
+  }
+
+  .hero-section-header {
+    display: flex;
+    flex-direction: column;
+
   }
 
   .hero-section-desktop-creations {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
     max-width: 100%;
     gap: 25px;
+  }
+
+  .mobile-img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
+ .footer{
+  text-align: center;
+ }
+
+  .footer-foot {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+  }
+
+  .hero-section-creations {
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .hero-section-mobile-creations {
+    margin: auto;
   }
 }
