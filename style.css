@@ -433,6 +433,12 @@ nav {
   .footer {
     text-align: center;
     max-width: 100%;
+   
+  }
+
+  .footer-links {
+    gap: 15px;
+
   }
 
   .footer-foot {
