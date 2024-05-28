@@ -376,6 +376,7 @@ nav {
     max-width: 100%;
     font-size: 2.75rem;
     display: inline;
+    
   }
 
   .vr-section {
@@ -389,19 +390,24 @@ nav {
     position: inherit;
     padding: 20px;
 
-
   }
-
+  .vr-section-text-title{
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
   .vr-section-text-paragraph {
     display: inline;
+    
   }
-
   .hero-section-header {
     display: flex;
     flex-direction: column;
-
+    text-align: center;
+    gap: 25px;
   }
-
+  .hero-section-header-title{
+    font-size: 2rem;
+  }
   .hero-section-desktop-creations {
     display: grid;
     align-items: center;
@@ -411,7 +417,16 @@ nav {
     max-width: 100%;
     gap: 25px;
   }
+  .hero-section-creations {
+    align-items: center;
+    justify-content: center;
 
+  }
+
+  .hero-section-mobile-creations {
+    margin: auto;
+  }
+}
   .mobile-img {
     display: block;
     max-width: 100%;
@@ -423,6 +438,7 @@ nav {
 
  .footer{
   text-align: center;
+  max-width: 100%;
  }
 
   .footer-foot {
@@ -432,13 +448,4 @@ nav {
 
   }
 
-  .hero-section-creations {
-    align-items: center;
-    justify-content: center;
-
-  }
-
-  .hero-section-mobile-creations {
-    margin: auto;
-  }
-}
+ 
