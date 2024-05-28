@@ -376,7 +376,7 @@ nav {
     max-width: 100%;
     font-size: 2.75rem;
     display: inline;
-    
+
   }
 
   .vr-section {
@@ -391,13 +391,15 @@ nav {
     padding: 20px;
 
   }
-  .vr-section-text-title{
+
+  .vr-section-text-title {
     font-size: 2rem;
     margin-bottom: 50px;
   }
+
   .vr-section-text-paragraph {
     display: inline;
-    
+
   }
 
   .hero-section-header {
@@ -426,10 +428,10 @@ nav {
     display: none;
   }
 
- .footer{
-  text-align: center;
-  max-width: 100%;
- }
+  .footer {
+    text-align: center;
+    max-width: 100%;
+  }
 
   .footer-foot {
     display: flex;
@@ -438,4 +440,4 @@ nav {
 
   }
 
- 
+}
