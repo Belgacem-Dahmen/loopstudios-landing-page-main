@@ -399,15 +399,14 @@ nav {
     display: inline;
     
   }
+
   .hero-section-header {
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 25px;
   }
-  .hero-section-header-title{
-    font-size: 2rem;
-  }
+
   .hero-section-desktop-creations {
     display: grid;
     align-items: center;
@@ -417,16 +416,7 @@ nav {
     max-width: 100%;
     gap: 25px;
   }
-  .hero-section-creations {
-    align-items: center;
-    justify-content: center;
 
-  }
-
-  .hero-section-mobile-creations {
-    margin: auto;
-  }
-}
   .mobile-img {
     display: block;
     max-width: 100%;
